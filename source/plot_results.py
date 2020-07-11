@@ -24,6 +24,7 @@ def plot_results(window):
         plt.legend()
 
     if plot_results.count == TOTAL_PLOTS:
+        plt.savefig("data_plot.svg", format='svg')
         plt.show()
 
     plot_results.count += 1
