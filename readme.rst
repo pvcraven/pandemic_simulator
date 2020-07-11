@@ -4,14 +4,18 @@ Pandemic Simulator
 Simulate your very own pandemic with Python and
 the `Arcade <https://arcade.academy>`_ library!
 
-.. image:: simulation.gif
+.. image:: doc/simulation.gif
 
+.. image:: doc/data_plot.svg
 
-.. image:: data_plot.svg
+How to Run
+----------
 
-Run the simulation using ``main.py``.
+Make sure the seaborn, matplotlib, and arcade libraries are installed.
 
-Control simulation parameters with code in that file:
+To run, execute the ``main.py``
+
+To change simulation parameters, edit this code in ``main.py``:
 
 .. code-block:: python
 

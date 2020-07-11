@@ -1,2 +1,3 @@
 arcade
 matplotlib
+seaborn
